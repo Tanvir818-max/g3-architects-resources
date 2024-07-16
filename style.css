@@ -7,3 +7,73 @@
   font-weight: 400;
   font-style: normal;
 }
+
+/* shared styles */
+.display-flex{
+  display: flex;
+}
+.text-color-gray{
+  color: rgb(66, 66, 66);
+}
+.text-color-lightgray{
+  color: #727272;
+}
+.bg-light{
+  background-color: rgb(255, 244, 230);
+}
+.btn-primary{
+  width: 180px;
+  height: 84px;
+  background-color: rgb(255, 144, 14);
+  border-radius: 8px;
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 20px 25px;
+  border: 0;
+}
+
+
+/* header styles */
+
+
+
+
+
+/* navbar related styles */
+.nav-item{
+  list-style: none;
+  margin-right: 30px;
+}
+.nav-link{
+  text-decoration: none;
+  font-weight: 500;
+}
+.navbar{
+  justify-content: space-between;
+  align-items: center;
+}
+.brand{
+  font-size: 3rem;
+  font-weight: 700;
+}
+.navbar, .banner{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* banner related styles */
+.banner-content{
+  max-width: 850px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.banner-title{
+  font-size: 4rem;
+  font-weight: 700;
+}
+.banner-description{
+  font-size: 1.2rem;
+}

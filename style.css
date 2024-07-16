@@ -39,7 +39,9 @@
   font-weight: 600;
   padding: 20px 25px;
   border: 0;
+  
 }
+
 main{
   max-width: 1440px;
   margin: 0 auto;
@@ -77,6 +79,7 @@ main > section{
   max-width: 1440px;
   margin: 0 auto;
 }
+
 
 /* banner related styles */
 .banner-content{
@@ -118,6 +121,11 @@ main > section{
 #quick-list{
   color:#727272;
   font-weight: 500;
+}
+/* features section related styles */
+#feature-section-title{
+  border-left: 5px solid #FF900E;
+  padding-left: 21px;
 }
 /* some facts related style */
 .facts-container{
@@ -166,12 +174,80 @@ main > section{
 .sponsor-company-img{
   filter: grayscale(100%)
 }
+/* features you will love */
+.features{
+  gap: 140px;
+}
+.feature-card{
+  padding: 30px;
+  box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06) ;
+  margin-bottom: 70px;
+  border-radius: 8px;
+}
+.feature-card .feature-title{
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+}
+.btn-two{
+  height: 200px;
+  width: 342px;
+  border-radius: 8px;
+  background-color: #FF900E;
+  color: white;
+  border: 0;
+  margin-left: -100px;
+  margin-top: -100px;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+ 
+
+#experience-badge{
+  padding: 45px 42px;
+  font-size: 1.5rem;
+  font-weight: 500;
+
+}
+#experience-year{
+  font-size: 4rem;
+  font-weight: 700;
+}
+#exp{
+  padding: 45px 42px;
+  font-size: 1.9rem;
+  font-weight: 500;
+
+}
+.featured-img img{
+  width: 100%;
+}
+/* footer section */
+.footer{
+  max-width: 1440px;
+  height: 100px;
+  background-color: rgb(255, 244, 231);
+  border-radius: 8px;
+  border: 0;
+  padding: 40px 410px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.conclution{
+  font-size: 20px;
+  font-weight: 400;
+  color:#727272;
+  text-align: center;
+}
+
 /* responsive media query */
 /* small device */
 @media screen and (max-width: 576px) {
 
 .navbar, 
 .nav-links,
+.features,
 .teams{
   flex-direction: column;
 }  
@@ -189,6 +265,10 @@ main > section{
   
   gap: 24px;
 }
+.btn-two{
+  margin-top: 20px;
+  margin-left: 20px;
+}
 .sponsor-company{
   gap: 50px;
   justify-items: center;
@@ -201,9 +281,16 @@ main > section{
 
 /* medium size device */
 @media screen and (min-width: 576px) and (max-width: 992px){
-  .teams{
+  .teams,
+  .features{
   flex-direction: column;
   .
+  }
+  .btn-two{
+    margin-top: 30px;
+    margin-left: 5px;
+    /* margin: 0 auto; */
+    /* align-items: center; */
   }
   .our-features{
     margin-left: 10px auto;

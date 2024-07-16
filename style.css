@@ -281,6 +281,9 @@ main > section{
 .our-features{
   margin-left: 20px;
 }
+.footer{
+  padding: 10px;
+}
 }
 
 /* medium size device */

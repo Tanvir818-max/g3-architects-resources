@@ -283,13 +283,14 @@ main > section{
 }
 .footer{
   padding: 10px;
+  align-items: center;
+  justify-content: center;
 }
 .conclution{
   font-size: .875rem;
   color:rgba(108, 92, 231,1.0);
-  margin: 0 auto;
-  align-items: center;
-  justify-content: center;
+  margin-top: 50px;
+
 }
 }
 
@@ -317,11 +318,14 @@ main > section{
   }
   .footer{
     padding: 10px;
+    align-items: center;
+    justify-content: center;
   }
   .conclution{
     font-size: 1rem;
     color:rgba(108, 92, 231,1.0);
-    margin: 0 auto;
+    margin-top: 50px;
+   
   }
 }
 
